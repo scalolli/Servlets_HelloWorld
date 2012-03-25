@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="HelloWorld" value="true" />
+        <entry key="HelloWorld/HelloWorld" value="true" />
+        <entry key="dependencies/HelloWorld/HelloWorld" value="true" />
+      </map>
+    </option>
+    <option name="gradleHome" value="D:/gradle" />
+    <option name="linkedProjectPath" value="D:\Servlets\HelloWorld\build.gradle" />
+  </component>
+</project>
+

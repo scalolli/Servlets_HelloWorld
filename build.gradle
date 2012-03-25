@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version'
+    }
+}
+
+dependencies {
+    compile "org.apache.tomcat:servlet-api:6.0.35"
+}
+
+repositories {
+    mavenCentral()
+}
+
+task copyToLib(type: Copy) {
+    into "$buildDir/../output/lib"
+    from configurations.runtime
+}
+
+
+
+
